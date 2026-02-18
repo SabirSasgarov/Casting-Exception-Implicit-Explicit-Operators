@@ -41,11 +41,5 @@ namespace Implicit_Explicit.Models
                 Status = OrderStatus.Delivered;
             return Status;
         }
-
-
-
-
-
-
     }
 }

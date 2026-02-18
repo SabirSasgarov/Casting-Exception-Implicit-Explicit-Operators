@@ -10,15 +10,8 @@ namespace Implicit_Explicit.Models
     {
         private static int ID;
         public int Id { get; }
-
         public string Name { get; set; }
-
         public bool IsAvailable { get; set; }
-
-
-
-
-
         public Courier(string name, bool availability)
         {
             Name = name;
