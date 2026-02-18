@@ -1,0 +1,5 @@
+C:\Users\sabirsas\Desktop\Class Tasks\Implicit Explicit\Implicit Explicit\obj\Debug\net8.0\Implicit Explicit.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sabirsas\Desktop\Class Tasks\Implicit Explicit\Implicit Explicit\obj\Debug\net8.0\Implicit Explicit.AssemblyInfoInputs.cache
+C:\Users\sabirsas\Desktop\Class Tasks\Implicit Explicit\Implicit Explicit\obj\Debug\net8.0\Implicit Explicit.AssemblyInfo.cs
+C:\Users\sabirsas\Desktop\Class Tasks\Implicit Explicit\Implicit Explicit\obj\Debug\net8.0\Implicit Explicit.csproj.CoreCompileInputs.cache
+C:\Users\sabirsas\Desktop\Class Tasks\Implicit Explicit\Implicit Explicit\obj\Debug\net8.0\Implicit Explicit.sourcelink.json
