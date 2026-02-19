@@ -7,24 +7,12 @@
       "RelativeMoniker": "D:0:0:{A42ED8F8-46EE-4398-B321-33E656B4ECF8}|Implicit Explicit\\Implicit Explicit.csproj|solutionrelative:implicit explicit\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A42ED8F8-46EE-4398-B321-33E656B4ECF8}|Implicit Explicit\\Implicit Explicit.csproj|c:\\users\\admin\\onedrive\\\u0130\u015F masas\u0131\\programs\\casting-exception-implicit-explicit-operators\\implicit explicit\\services\\cargoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A42ED8F8-46EE-4398-B321-33E656B4ECF8}|Implicit Explicit\\Implicit Explicit.csproj|solutionrelative:implicit explicit\\services\\cargoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A42ED8F8-46EE-4398-B321-33E656B4ECF8}|Implicit Explicit\\Implicit Explicit.csproj|c:\\users\\admin\\onedrive\\\u0130\u015F masas\u0131\\programs\\casting-exception-implicit-explicit-operators\\implicit explicit\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A42ED8F8-46EE-4398-B321-33E656B4ECF8}|Implicit Explicit\\Implicit Explicit.csproj|solutionrelative:implicit explicit\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A42ED8F8-46EE-4398-B321-33E656B4ECF8}|Implicit Explicit\\Implicit Explicit.csproj|c:\\users\\admin\\onedrive\\\u0130\u015F masas\u0131\\programs\\casting-exception-implicit-explicit-operators\\implicit explicit\\exceptions\\orderexceptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A42ED8F8-46EE-4398-B321-33E656B4ECF8}|Implicit Explicit\\Implicit Explicit.csproj|solutionrelative:implicit explicit\\exceptions\\orderexceptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A42ED8F8-46EE-4398-B321-33E656B4ECF8}|Implicit Explicit\\Implicit Explicit.csproj|c:\\users\\admin\\onedrive\\\u0130\u015F masas\u0131\\programs\\casting-exception-implicit-explicit-operators\\implicit explicit\\models\\courier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A42ED8F8-46EE-4398-B321-33E656B4ECF8}|Implicit Explicit\\Implicit Explicit.csproj|solutionrelative:implicit explicit\\models\\courier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A42ED8F8-46EE-4398-B321-33E656B4ECF8}|Implicit Explicit\\Implicit Explicit.csproj|c:\\users\\admin\\onedrive\\\u0130\u015F masas\u0131\\programs\\casting-exception-implicit-explicit-operators\\implicit explicit\\models\\cargoorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A42ED8F8-46EE-4398-B321-33E656B4ECF8}|Implicit Explicit\\Implicit Explicit.csproj|solutionrelative:implicit explicit\\models\\cargoorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A42ED8F8-46EE-4398-B321-33E656B4ECF8}|Implicit Explicit\\Implicit Explicit.csproj|c:\\users\\admin\\onedrive\\\u0130\u015F masas\u0131\\programs\\casting-exception-implicit-explicit-operators\\implicit explicit\\services\\cargoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A42ED8F8-46EE-4398-B321-33E656B4ECF8}|Implicit Explicit\\Implicit Explicit.csproj|solutionrelative:implicit explicit\\services\\cargoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -44,7 +32,7 @@
               "RelativeDocumentMoniker": "Implicit Explicit\\Program.cs",
               "ToolTip": "C:\\Users\\Admin\\OneDrive\\\u0130\u015F masas\u0131\\Programs\\Casting-Exception-Implicit-Explicit-Operators\\Implicit Explicit\\Program.cs",
               "RelativeToolTip": "Implicit Explicit\\Program.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAAAB8AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-18T13:02:19.749Z",
               "IsPinned": true,
@@ -52,67 +40,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "CargoService.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\\u0130\u015F masas\u0131\\Programs\\Casting-Exception-Implicit-Explicit-Operators\\Implicit Explicit\\Services\\CargoService.cs",
               "RelativeDocumentMoniker": "Implicit Explicit\\Services\\CargoService.cs",
               "ToolTip": "C:\\Users\\Admin\\OneDrive\\\u0130\u015F masas\u0131\\Programs\\Casting-Exception-Implicit-Explicit-Operators\\Implicit Explicit\\Services\\CargoService.cs",
               "RelativeToolTip": "Implicit Explicit\\Services\\CargoService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-18T13:19:16.358Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\\u0130\u015F masas\u0131\\Programs\\Casting-Exception-Implicit-Explicit-Operators\\Implicit Explicit\\Models\\Customer.cs",
-              "RelativeDocumentMoniker": "Implicit Explicit\\Models\\Customer.cs",
-              "ToolTip": "C:\\Users\\Admin\\OneDrive\\\u0130\u015F masas\u0131\\Programs\\Casting-Exception-Implicit-Explicit-Operators\\Implicit Explicit\\Models\\Customer.cs",
-              "RelativeToolTip": "Implicit Explicit\\Models\\Customer.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-18T13:03:38.192Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "CargoOrder.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\\u0130\u015F masas\u0131\\Programs\\Casting-Exception-Implicit-Explicit-Operators\\Implicit Explicit\\Models\\CargoOrder.cs",
               "RelativeDocumentMoniker": "Implicit Explicit\\Models\\CargoOrder.cs",
               "ToolTip": "C:\\Users\\Admin\\OneDrive\\\u0130\u015F masas\u0131\\Programs\\Casting-Exception-Implicit-Explicit-Operators\\Implicit Explicit\\Models\\CargoOrder.cs",
               "RelativeToolTip": "Implicit Explicit\\Models\\CargoOrder.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAgwCoAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAACQAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-18T13:03:58.935Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Courier.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\\u0130\u015F masas\u0131\\Programs\\Casting-Exception-Implicit-Explicit-Operators\\Implicit Explicit\\Models\\Courier.cs",
-              "RelativeDocumentMoniker": "Implicit Explicit\\Models\\Courier.cs",
-              "ToolTip": "C:\\Users\\Admin\\OneDrive\\\u0130\u015F masas\u0131\\Programs\\Casting-Exception-Implicit-Explicit-Operators\\Implicit Explicit\\Models\\Courier.cs",
-              "RelativeToolTip": "Implicit Explicit\\Models\\Courier.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-18T13:03:47.75Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "OrderExceptions.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\\u0130\u015F masas\u0131\\Programs\\Casting-Exception-Implicit-Explicit-Operators\\Implicit Explicit\\Exceptions\\OrderExceptions.cs",
-              "RelativeDocumentMoniker": "Implicit Explicit\\Exceptions\\OrderExceptions.cs",
-              "ToolTip": "C:\\Users\\Admin\\OneDrive\\\u0130\u015F masas\u0131\\Programs\\Casting-Exception-Implicit-Explicit-Operators\\Implicit Explicit\\Exceptions\\OrderExceptions.cs",
-              "RelativeToolTip": "Implicit Explicit\\Exceptions\\OrderExceptions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-18T21:42:45.219Z",
               "EditorCaption": ""
             }
           ]

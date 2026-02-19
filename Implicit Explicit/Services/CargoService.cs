@@ -1,12 +1,5 @@
 ﻿using Implicit_Explicit.Exceptions;
 using Implicit_Explicit.Models;
-using System;
-using System.Collections.Generic;
-using System.Diagnostics.Metrics;
-using System.Linq;
-using System.Numerics;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Implicit_Explicit.Services
 {
@@ -20,23 +13,15 @@ namespace Implicit_Explicit.Services
         {
             Array.Resize(ref customers, customers.Length + 1);
             customers[customers.Length - 1] = newCustomer;
+			Console.WriteLine("Customer hass been added!");
         }
 
         public void AddCourier(Courier newCurier)
         {
             Array.Resize(ref couriers, couriers.Length + 1);
             couriers[couriers.Length - 1] = newCurier;
+			Console.WriteLine("Courier has been added!");
         }
-
-        //public override string ToString()
-        //{
-        //    foreach (var item in couriers)
-        //    {
-        //        Console.WriteLine($"{item.Id} - {item.IsAvailable}");
-        //    }
-        //    return " ";
-        //}
-
 
         public void CreateOreder(CargoOrder newOrder)
         {
@@ -68,6 +53,7 @@ namespace Implicit_Explicit.Services
                     newCourier.IsAvailable = false;
                     Array.Resize(ref cargoOrders, cargoOrders.Length + 1);
                     cargoOrders[cargoOrders.Length - 1] = newOrder;
+					Console.WriteLine("Order has been added to the queue!");
                 }
                 else
                 {
@@ -80,6 +66,28 @@ namespace Implicit_Explicit.Services
                 throw new OrderExceptions("Customer was not found!");
             else
                 throw new OrderExceptions("Nor customer or courier was found!");
+		}
+
+        public void CompleteOrder(int id)
+        {
+			foreach (var order in cargoOrders)
+			{
+                if (id == order.Id)
+                {
+                    order.Status = order.UpdateStatus(order.Status);
+					foreach (var courier in couriers)
+					{
+						if(courier.Id==order.CourierId)
+                        {
+                            courier.IsAvailable = true;
+							Console.WriteLine("Oreder hase been delivered!");
+                            return;
+						}
+					}
+                    return;
+				}
+				throw new OrderExceptions("Order was not found!");
+			}
 		}
 
 	}

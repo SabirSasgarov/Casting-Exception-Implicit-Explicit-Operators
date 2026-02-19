@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Implicit_Explicit.Enums;
+﻿using Implicit_Explicit.Enums;
+using Implicit_Explicit.Exceptions;
 
 
 namespace Implicit_Explicit.Models
@@ -29,17 +25,18 @@ namespace Implicit_Explicit.Models
         }
 
 
-        public OrderStatus UpdateStatus()
+        public OrderStatus UpdateStatus(OrderStatus status)
         {
-            if (Status == OrderStatus.Cancelled)
-                return Status;
-            if (Status == OrderStatus.Delivered)
-                return Status;
-            if (Status == OrderStatus.Created)
-                Status = OrderStatus.OnTheWay;
-            else if (Status == OrderStatus.OnTheWay)
-                Status = OrderStatus.Delivered;
-            return Status;
+            switch (status){
+                case OrderStatus.Delivered:
+					throw new OrderExceptions("Order has been delivered!");
+                case OrderStatus.Cancelled:
+					throw new OrderExceptions("Order has been cancelled!");
+                default:
+                    status = OrderStatus.Delivered;
+					break;
+			}
+            return status;
         }
     }
 }

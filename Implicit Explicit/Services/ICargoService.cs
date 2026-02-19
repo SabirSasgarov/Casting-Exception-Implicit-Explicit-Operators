@@ -15,5 +15,6 @@ namespace Implicit_Explicit.Services
 
         public void CreateOreder(CargoOrder newOrder);
 
+        public void CompleteOrder(int id);
     }
 }
